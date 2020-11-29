@@ -1,0 +1,34 @@
+<script defer src="js/reg.js"></script>
+
+<script defer src="/js/account.js"></script>
+
+<script defer src="/js/swipe.js"></script>
+
+<div class="container">
+  <br>
+  <br>
+  <center>
+    <h4>←🙂 Do you like this?.. 😂→</h4>
+  </center>
+
+
+  <div id="swipeblediv" class="img-container" style="align-items:center;">
+    {{!-- <div class="spinnerContainer"> --}}
+    {{!-- <img class="spinner" src="images/like.png" id="like" alt=""> --}}
+    {{!-- <img class="spinner" src="images/dislike.png" id="dislike" alt=""> --}}
+    {{!-- </div> --}}
+    <img id={{_id}} class="carousel-inner" src="{{url}}">
+  </div>
+
+  <div id="leftdiv" class="img-container dislike" style="align-items:center;">
+    <div class="spinnerContainer">
+      <img class="spinner" src="images/like.png" id="like" alt="">
+    </div>
+  </div>
+  <div id="rightdiv" class="img-container like" style="align-items:center;">
+    <div class="spinnerContainer">
+      <img class="spinner" src="images/dislike.png" id="like" alt="">
+    </div>
+  </div>
+
+</div>

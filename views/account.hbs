@@ -1,0 +1,22 @@
+<div class="container h-100">
+  <div class="row h-100 justify-content-center align-items-center">
+    <div class="col-10 col-md-10 col-lg-10">
+
+
+<br>
+      <div class="form-group">
+        {{!-- <label for="description">Description</label> --}}
+        <textarea readonly class="form-control" id="description" rows="3">
+          Your rate is: {{userInfo.rate}}
+          You have posted {{userInfo.progress}} memes. 
+        </textarea>
+        <h5>You have to pay attention to {{match.username}}</h5>
+          
+        <a href="/">Resume to fun...</a>
+      </div>
+      <form action="/add" method="get">
+        <button type="submit" class="btn btn-primary">Add meme</button>
+      </form>
+    </div>
+  </div>
+</div>

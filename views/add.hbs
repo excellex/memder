@@ -1,0 +1,31 @@
+<script defer src="/js/add.js"></script>
+
+<div class="container h-100">
+  <div>
+  </div>
+  <div class="row h-100 justify-content-center align-items-center">
+    <div class="col-10 col-md-8 col-lg-6" style="z-index: 0;"><br>
+    <br>
+    <br>
+    <h4>Add your own meme</h4>
+      <!-- Form -->      <br>
+      <br>
+        <a href="/">Resume to fun...</a>
+      <form class="signin-form" action="/api/postmeme" method="post">
+        <div class="form-group mt-5">
+          <input type="text" name="meme" class="form-control" placeholder="paste your meme here...">
+        </div>
+        <div class="form-group mt-3">
+          <textarea name="description" class="form-control" id="description" rows="3" placeholder="write a description"></textarea>
+        </div>
+        <div class="text-center mt-3">
+          <button type="submit" class="btn btn-secondary">&nbsp; Post it &nbsp;</button>
+        </div>
+      </form>
+      <br>
+      <br>
+      <br>
+      <!-- Form end -->
+    </div>
+  </div>
+</div>

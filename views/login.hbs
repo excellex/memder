@@ -1,0 +1,26 @@
+<script defer src="/js/signin.js"></script>
+
+<div class="container h-100">
+  <div>
+    <a href="/register" class="switch">Register</a>
+  </div>
+  <div class="row h-100 justify-content-center align-items-center">
+    <div class="col-10 col-md-8 col-lg-6" style="z-index: 0;">
+      <!-- Form -->
+      <form class="signin-form" action="/api/auth/login" method="post">
+        <div class="form-group mt-5">
+          <input type="text" name="username" class="form-control" placeholder="username...">
+        </div>
+        <div class="form-group mt-3">
+          <input type="password" name="password" class="form-control" placeholder="password..." required>
+        </div>
+        <div class="text-center mt-3">
+          <button type="submit" class="btn btn-secondary">&nbsp; Login &nbsp;</button>
+        </div>
+      </form>
+      <!-- Form end -->
+    </div>
+  </div>
+</div>
+
+
